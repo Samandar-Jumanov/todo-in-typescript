@@ -1,0 +1,60 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  .form 
+  {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    input 
+    {
+      width: 250px;
+      height: 40px;
+      border: 1px solid rgba(0, 0, 1, 0.356);
+      margin-top: 10px;
+      outline: none;
+      border-radius: 10px;
+    }
+  }
+  .addBtn 
+  {
+    width: 200px;
+    padding: 5px;
+    border: none;
+    margin-top: 10px;
+    height: 30px;
+    background-color: rgb(36, 23, 226);
+    color: white;
+  }
+  .delBtn 
+  {
+    width: 200px;
+    padding: 5px;
+    border: none;
+    margin-top: 10px;
+    height: 30px;
+    background-color: rgb(212, 42, 65);
+    color: white;
+  }
+  .todos {
+    width: 100vw;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+}
